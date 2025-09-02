@@ -6,9 +6,44 @@ do
     Console.WriteLine("Please input the lower bound value.");
     string lowerString = Console.ReadLine();
     int lower = int.Parse(lowerString);
+
+    //try
+    //{
+    //    lower = int.Parse(lowerString);
+    //}
+    //catch (FormatException)
+    //{
+    //    Console.WriteLine("The lower bound value must be an integer.");
+    //}
+    //catch (OverflowException)
+    //{
+    //    Console.WriteLine("The lower bound value is too large or too small.");
+    //}
+    //catch (Exception ex)
+    //{
+    //    Console.WriteLine($"An error occurred: {ex.Message}");
+    //}
+
     Console.WriteLine("Please input the upper bound value.");
     string upperString = Console.ReadLine();
     int upper = int.Parse(upperString);
+
+    //try
+    //{
+    //    lower = int.Parse(upperString);
+    //}
+    //catch (FormatException)
+    //{
+    //    Console.WriteLine("The lower bound value must be an integer.");
+    //}
+    //catch (OverflowException)
+    //{
+    //    Console.WriteLine("The lower bound value is too large or too small.");
+    //}
+    //catch (Exception ex)
+    //{
+    //    Console.WriteLine($"An error occurred: {ex.Message}");
+    //}
 
     //data_type variable_name = value
     Random r = new Random();
